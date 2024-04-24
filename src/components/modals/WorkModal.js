@@ -49,7 +49,7 @@ const WorkModal = ({ onClose }) => {
             </div>
           </div>
             </a>
-            <a href='https://publuu.com/flip-book/85162/242115' target='__blank' className="project-link">
+            <a href='https://github.com/Jollish/TARAKI-CAR' target='__blank' className="project-link">
           <div className="project">
             <img src={webPortfolioImage4} alt="Web Portfolio Project" />
             <div className="project-details">
@@ -58,7 +58,7 @@ const WorkModal = ({ onClose }) => {
             </div>
           </div>
             </a>
-            <a href='https://publuu.com/flip-book/85162/242115' target='__blank' className="project-link">
+            <a href='www.mcdl-intl.com' target='__blank' className="project-link">
           <div className="project">
             <img src={webPortfolioImage5} alt="Web Portfolio Project" />
             <div className="project-details">

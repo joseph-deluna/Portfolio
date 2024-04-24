@@ -3,7 +3,6 @@ import AnimatedBackground from '../components/AnimatedBackground';
 
 import Moon from '../components/Moon';
 import Studio from '../components/Studio';
-import Profile from '../components/Profile';
 
 
 function TheDreamerStudio() {
