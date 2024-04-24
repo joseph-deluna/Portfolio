@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import messageImage from '../message.png'; // Import your profile image
+import messageImage from '../assets/img/message.png'; // Import your profile image
 import MessageModal from './modals/MessageModal'; // Assuming you have a MessageModal component
 
 const Message = () => {

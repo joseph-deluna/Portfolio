@@ -1,5 +1,5 @@
 import React from 'react';
-import gamesImage from '../games.png'; // Import your profile image
+import gamesImage from '../assets/img/games.png'; // Import your profile image
 import GameModal from './modals/GameModal'; // Assuming you have a GameModal component
 
 const Games = () => {

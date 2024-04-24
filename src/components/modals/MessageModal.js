@@ -38,26 +38,25 @@ const MessageModal = ({ onClose }) => {
   };
 
   return (
-    <div className="modal-overlay">
+    <div className="modal-overslay">
       <div className="modal message-modal">
         <button className="close-btn" onClick={onClose}></button>
-        <h2 className="modal-title">Send Message</h2>
-        <form onSubmit={sendEmail} className="message-form">
-          <div className="form-group">
-            <label className="form-label">Name</label>
-            <input type="text" name="user_name" className="form-input" />
-          </div>
-          <div className="form-group">
-            <label className="form-label">Email</label>
-            <input type="email" name="user_email" className="form-input" />
-          </div>
-          <div className="form-group">
-            <label className="form-label">Message</label>
-            <textarea name="message" className="form-textarea" />
-          </div>
-          <input type="submit" value="Send" className="form-submit" disabled={isSubmitting} />
-          {stateMessage && <p className="form-message">{stateMessage}</p>}
-        </form>
+        <div className='modal-content'>
+          <h2 className="message-title">Drop a message</h2>
+          <form onSubmit={sendEmail} className="message-form">
+            <div className="form-group">
+              <textarea name="message" className="form-textarea" placeholder="Your message" required />
+            </div>
+            <div className="form-group">
+              <input type="text" name="user_name" className="form-input" placeholder="Your name (optional)" />
+            </div>
+            <div className="form-group">
+              <input type="email" name="user_email" className="form-input" placeholder="Your email (optional)" />
+            </div>
+            <input type="submit" value="Send" className="form-submit" disabled={isSubmitting} />
+            {stateMessage && <p className="form-message">{stateMessage}</p>}
+          </form>
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import speakerImage from '../speaker.png';
+import speakerImage from '../assets/img/speaker.png';
 import SpeakerModal from './modals/SpeakerModal'; // Import the Speaker modal component
 
 const Speaker = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import windowImage from '../window.png'; // Import your profile image
+import windowImage from '../assets/img/window.png'; // Import your profile image
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Window = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import moon from '../moon.png'; // Import your profile image
+import moon from '../assets/img/moon.png'; // Import your profile image
 
 const Moon = () => {
 
@@ -7,6 +7,7 @@ const Moon = () => {
     <>
     <div className="moon" >
       <img src={moon} alt="Moon" />
+      <p>&copy; Copyright 2024 Portal Project, TheDreamer Co. Ltd.</p>
     </div>
       </>
   );

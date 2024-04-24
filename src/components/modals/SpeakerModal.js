@@ -2,11 +2,8 @@ import React, { useRef, useState } from 'react';
 
 const SpeakerModal = ({ onClose }) => {
   
-  
-
-
   return (
-    <div className="modal speaker-modal">
+    <div className="modal speaker-modal" >
       <button className="close-btn" onClick={onClose}></button>
       <div className="modal-content">
         {/* Add iframe for Spotify playlist */}

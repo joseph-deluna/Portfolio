@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import mailBox from '../mailbox.png';
+import mailBox from '../assets/img/mailbox.png';
 import MessageModal from './modals/MessageModal'; // Import the Speaker modal component
 
-const Mailbox = () => {
+const Speaker = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const toggleModal = () => {
@@ -20,4 +20,4 @@ const Mailbox = () => {
   );
 }
 
-export default  Mailbox;
+export default Speaker;

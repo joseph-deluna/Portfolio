@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PictureModal from './modals/PictureModal';
-import pictureImage from '../picture.png';
+import pictureImage from '../assets/img/picture.png';
 
 const Picture = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
