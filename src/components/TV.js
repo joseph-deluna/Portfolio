@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import TVImage from '../assets/img/tv.png';
-import TVModal from './modals/TVModal'; // Import the Speaker modal component
+import TVImage from '../tv.png';
+import TVModal from '../components/modals/TVModal'; // Import the Speaker modal component
 
 const TV = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -12,7 +12,7 @@ const TV = () => {
   return (
     <>
       <div className="tv" onClick={toggleModal}>
-      <div class="label">Play</div>
+      <div class="label">Play Videos</div>
       <img src={TVImage} alt="TV" />
       </div>
       {isModalOpen && <TVModal onClose={toggleModal} />}

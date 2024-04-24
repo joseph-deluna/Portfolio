@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import BookModal from './modals/BookModal';
-import booksImage from '../assets/img/books.png'; // Import your profile image
+import booksImage from '../books.png'; // Import your profile image
 
 const Books = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

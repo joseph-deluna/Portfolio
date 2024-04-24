@@ -1,23 +1,23 @@
 import React from 'react';
 
 // Import your game images
-import game1Image from '../../assets/img/game/game0.jpg';
-import game2Image from '../../assets/img/game/game1.jpg';
-import game3Image from '../../assets/img/game/game2.jpg';
-import game4Image from '../../assets/img/game/game3.jpg';
-import game5Image from '../../assets/img/game/game4.jpg';
-import game6Image from '../../assets/img/game/game5.jpg';
-import game7Image from '../../assets/img/game/game6.png';
-import game8Image from '../../assets/img/game/game7.png';
-import game9Image from '../../assets/img/game/game8.jpg';
-import game10Image from '../../assets/img/game/game9.jpg';
-import game11Image from '../../assets/img/game/game10.png';
-import game12Image from '../../assets/img/game/game11.jpg';
-import game13Image from '../../assets/img/game/game12.jpg';
+import game1Image from '../../images/game0.jpg';
+import game2Image from '../../images/game1.jpg';
+import game3Image from '../../images/game2.jpg';
+import game4Image from '../../images/game3.jpg';
+import game5Image from '../../images/game4.jpg';
+import game6Image from '../../images/game5.jpg';
+import game7Image from '../../images/game6.png';
+import game8Image from '../../images/game7.png';
+import game9Image from '../../images/game8.jpg';
+import game10Image from '../../images/game9.jpg';
+import game11Image from '../../images/game10.png';
+import game12Image from '../../images/game11.jpg';
+import game13Image from '../../images/game12.jpg';
 
-import console1Logo from '../../assets/img/game/console1.png';
-import console2Logo from '../../assets/img/game/console2.png';
-import console3Logo from '../../assets/img/game/console3.png';
+import console1Logo from '../../images/console1.png';
+import console2Logo from '../../images/console2.png';
+import console3Logo from '../../images/console3.png';
 
 // Import more game images as needed
 
@@ -41,7 +41,7 @@ const GameModal = ({ onClose }) => {
   ];
 
   return (
-    <div className="modal-overlasy">
+    <div className="modal-overlay">
       <div className="modal game-modal">
         <button className="close-btn" onClick={onClose}></button>
         <h2 className="modal-title">Games Played</h2>
@@ -51,6 +51,7 @@ const GameModal = ({ onClose }) => {
               <img src={game.imageUrl} alt={game.title} className="game-image" />
               <div className="game-details">
                 <div className="console-info">
+                  <img src={game.consoleLogo} alt={game.console} className="console-logo" />
                   <p className="game-title">{game.title}</p>
                 </div>
               </div>

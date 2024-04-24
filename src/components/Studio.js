@@ -1,5 +1,5 @@
 import React from 'react';
-import studio from '../assets/img/studio.png'; // Import your profile image
+import studio from '../studio.png'; // Import your profile image
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 const Studio = () => {

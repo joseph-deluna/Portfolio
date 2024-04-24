@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import WorkModal from './modals/WorkModal';
-import workImage from '../assets/img/work.png'; // Import your profile image
+import workImage from '../work.png'; // Import your profile image
 
 const Work = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

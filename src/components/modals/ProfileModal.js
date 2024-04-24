@@ -1,18 +1,18 @@
 import React from 'react';
 import { IoMdHome } from "react-icons/io";
-import profilePicture from '../../assets/img/profile/dp.jpg'
+import profilePicture from '../../images/profile.jpg'
 import { FaSchool, FaInfoCircle, FaFacebook, FaGithub } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 // Import images
-import htmlIcon from     '../../assets/img/profile/html.png';
-import cssIcon from       '../../assets/img/profile/css.svg';
-import jsIcon from          '../../assets/img/profile/js.png';
-import reactIcon from    '../../assets/img/profile/react.png';
-import mongoIcon from '../../assets/img/profile/mongodb.svg';
-import phpIcon from      '../../assets/img/profile/php.png';
-import sqlIcon from        '../../assets/img/profile//sql.png';
+import htmlIcon from '../../images/html.png';
+import cssIcon from '../../images/css.svg';
+import jsIcon from '../../images/js.png';
+import reactIcon from '../../images/react.png';
+import mongoIcon from '../../images/mongodb.svg';
+import phpIcon from '../../images/php.png';
+import sqlIcon from '../../images/sql.png';
 
 const ProfileModal = ({ onClose }) => {
   const skills = [
@@ -26,20 +26,18 @@ const ProfileModal = ({ onClose }) => {
   ];
 
   return (
-    <div className="modal-overlsay">
+    <div className="modal-overlay">
       <div className="modal profile-modal">
         <button className="close-btn" onClick={onClose}></button>
         <div className="modal-content">
           <div className="profile-image">
             <img src={profilePicture} alt="Profile" />
             </div>
-            <h2>About Me</h2>
           <div className="profile-info">
+            <h2>About Me</h2>
             <p><FaInfoCircle /> Bio:<br></br> My name is Joseph, a web developer.</p>
             <p><IoMdHome /> Hometown:<br></br> Baguio City</p>
             <p><FaSchool /> School:<br></br> University of the Cordilleras</p>
-            </div>
-
             <div className="skills">
               <h3>Skills:</h3>
               <div className="skills-grid">
@@ -63,6 +61,7 @@ const ProfileModal = ({ onClose }) => {
                 <a href="instagram-url"><RiInstagramFill /></a>
                 <a href="linkedin-url"><TiSocialLinkedinCircular /></a>
                 <a href="github-url"><FaGithub /></a>
+              </div>
             </div>
           </div>
         </div>

@@ -4,11 +4,10 @@ const TVModal = ({ onClose }) => {
   const [showVideos, setShowVideos] = useState(false);
 
   return (
-    <div className="modal-overlays">
+    <div className="modal-overlay">
       <div className="modal tv-modal">
         <button className="close-btn" onClick={onClose}></button>
-        <div className='modal-content'>
-        <h2 className="modal-title">TV</h2>
+        <h2 className="modal-title">TV Shows</h2>
         <div className="video-list">
           {/* Display list of videos here */}
           <iframe
@@ -20,7 +19,6 @@ const TVModal = ({ onClose }) => {
             allowFullScreen
           ></iframe>
           {/* Add more videos as needed */}
-        </div>
         </div>
       </div>
     </div>

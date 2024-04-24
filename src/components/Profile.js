@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ProfileModal from './modals/ProfileModal';
-import profileImage from '../assets/img/profile.png'; // Import your profile image
+import profileImage from '../profile.png'; // Import your profile image
 
 const Profile = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
