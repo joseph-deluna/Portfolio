@@ -14,46 +14,18 @@ import Games from '../components/Games';
 function Jose() {
   return (
     <div className="jose">
-      <h1>I'm Joseph, Welcome to my Portfolio</h1>
       <div className="container side-nav">
-      <div className="column">
-        {/* 3 rows */}
-        <div className="row">
+      <div className='header'><h1>I'm Joseph, Welcome to my Portfolio</h1><p>&copy; Copyright 2024 Portal Project, TheDreamer Co. Ltd.</p></div>
         <Books />
-        </div>
-        <div className="row">
         <Speaker />
-        </div>
-        <div className="row">
         <TV />
-        </div>
-      </div>
-      <div className="column">
-        {/* 1 row */}
-        <div className='row'>
           <Window />
-        </div>
-        <div className='row'>
         <Profile />
-        </div>
-        
-      </div>
-      <div className="column">
-        {/* 1 row */}
         <Picture />
-      </div>
-      <div className="column">
-        {/* 3 rows */}
-        <div className="row">
         <Message />
-        </div>
-        <div className="row">
         <Games />
-        </div>
-        <div className="row">
         <Work />
-        </div>
-      </div>
+        
       </div>
     </div>
 

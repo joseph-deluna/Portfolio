@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedBackground from '../components/AnimatedBackground';
 
-import Mailbox from '../components/MailBox';
+import Mailbox from '../components/Mailbox';
 import Moon from '../components/Moon';
 import Studio from '../components/Studio';
 import Profile from '../components/Profile';
@@ -11,16 +11,10 @@ function TheDreamerStudio() {
   return (
     <div>
       <AnimatedBackground />
-      <div className="container">
-      <div className="column">
+      <div className="container2">
         <Mailbox />
-      </div>
-      <div className="column">
         <Moon />
         <Studio />
-      </div>
-      <div className="column">
-      </div>
       </div>
     </div>
   );

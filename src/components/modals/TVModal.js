@@ -6,7 +6,7 @@ const TVModal = ({ onClose }) => {
   return (
     <div className="modal-overlay">
       <div className="modal tv-modal">
-        <button className="close-btn" onClick={onClose}>X</button>
+        <button className="close-btn" onClick={onClose}></button>
         <h2 className="modal-title">TV Shows</h2>
         <div className="video-list">
           {/* Display list of videos here */}
