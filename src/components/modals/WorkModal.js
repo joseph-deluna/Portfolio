@@ -58,7 +58,7 @@ const WorkModal = ({ onClose }) => {
             </div>
           </div>
             </a>
-            <a href='www.mcdl-intl.com' target='__blank' className="project-link">
+            <a href='https://www.mcdl-intl.com/' target='__blank' className="project-link">
           <div className="project">
             <img src={webPortfolioImage5} alt="Web Portfolio Project" />
             <div className="project-details">
